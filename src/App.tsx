@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.tsx";
+import ResumeForm from "./components/ResumeForm.tsx";
 
 function App() {
   return (
     <>
       <Navbar></Navbar>
-      <h1>Hello world!</h1>
+      <ResumeForm></ResumeForm>
       <Footer></Footer>
     </>
   );
