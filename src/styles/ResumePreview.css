@@ -1,0 +1,17 @@
+.resume-preview {
+  height: fit-content;
+  width: 80%;
+  max-width: 500px;
+  border: 2px white solid;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 0 auto;
+  background: #eee;
+  color: black;
+}
+
+.cv-header {
+  font-style: italic;
+  color: #444;
+  text-align: center;
+}
