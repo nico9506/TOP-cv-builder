@@ -2,7 +2,7 @@ import "../styles/ResumePreview.css";
 
 const ResumePreview = ({ generalInfo, education, experience }) => {
   return (
-    <div className="resume-preview">
+    <div className="resume-preview" id="resume-preview">
       <h2 className="cv-header">Curriculum Vitae</h2>
       <h3>General Information</h3>
       <p>
