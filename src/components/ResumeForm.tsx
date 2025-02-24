@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { ChangeEvent, useState } from "react";
 import "../styles/ResumeForm.css";
 import ResumePreview from "./ResumePreview";
 
@@ -37,7 +37,10 @@ const ResumeForm = () => {
     });
   };
 
-  const handleChangeEducation = (index, e) => {
+  const handleChangeEducation = (
+    index: number,
+    e: ChangeEvent<HTMLInputElement>,
+  ) => {
     const { name, value } = e.target;
     const updatedEducation = [...education];
     updatedEducation[index] = {
